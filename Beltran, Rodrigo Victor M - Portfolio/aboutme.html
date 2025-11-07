@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me | Rovic Beltran</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="leaf.png">
+</head>
+<body>
+    <div class="falling-leaves">
+        <svg class="leaf" viewBox="0 0 32 32">
+            <path d="M16 2 Q28 10 16 30 Q4 10 16 2 Z" fill="#81c784"/>
+        </svg>
+        <svg class="leaf" viewBox="0 0 32 32">
+            <path d="M16 2 Q28 10 16 30 Q4 10 16 2 Z" fill="#388e3c"/>
+        </svg>
+        <svg class="leaf" viewBox="0 0 32 32">
+            <path d="M16 2 Q28 10 16 30 Q4 10 16 2 Z" fill="#a5d6a7"/>
+        </svg>
+        <svg class="leaf" viewBox="0 0 32 32">
+            <path d="M16 2 Q28 10 16 30 Q4 10 16 2 Z" fill="#43a047"/>
+        </svg>
+        <svg class="leaf" viewBox="0 0 32 32">
+            <path d="M16 2 Q28 10 16 30 Q4 10 16 2 Z" fill="#b2dfdb"/>
+        </svg>
+    </div>
+    <div class="white-rectangle">
+        <h1>About Rovic</h1>
+        <p class="welcome-text">Get to know more about Rodrigo Victor M. Beltran.</p>
+        <nav class="main-nav">
+            <a href="index.html">Home</a>
+            <a href="tasks.html">Tasks</a>
+            <a href="aboutme.html">About Me</a>
+        </nav>
+    </div>
+
+    <div class="center-translucent-box">
+        <div class="translucent-content">
+            <div class="translucent-text">
+                <p class="plant-intro">
+                    Hello! I'm <strong>Rodrigo Victor M. Beltran</strong>, a nature lover, plant enthusiast, and someone who finds joy in the little things. Whether I'm tending to my leafy friends, spending time with family, or exploring new hobbies, I always try to see the world with curiosity and gratitude.<br><br>
+                    Here are some snapshots of my life—myself, my family, and the person who inspire me every day.
+                </p>
+            </div>
+            <div class="photo-column">
+                <div class="carousel" id="carousel-me">
+                    <img class="carousel-img" src="about_me.jpg" alt="Me" />
+                    <img class="carousel-img" src="about_me2.jpg" alt="Me 2" />
+                    <img class="carousel-img" src="about_me3.jpg" alt="Me 3" />
+                    <img class="carousel-img" src="about_me4.jpg" alt="Me 4" />
+                    <img class="carousel-img" src="about_me5.jpg" alt="Me 5" />
+                    <div class="carousel-dots"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- About Family Carousel -->
+    <div class="center-translucent-box">
+        <div class="translucent-content">
+            <div class="translucent-text">
+                <p class="plant-intro"><strong>My Parents</strong><br>My parents are the roots of who I am—steady, nurturing, and full of love. They’ve taught me the value of patience, kindness, and appreciating life’s quiet beauty. Their guidance and support are what help me grow every day.</p>
+            </div>
+            <div class="photo-column">
+                <div class="carousel" id="carousel-fam">
+                    <img class="carousel-img" src="about_fam.jpg" alt="Family" />
+                    <img class="carousel-img" src="about_fam2.jpg" alt="Family 2" />
+                    <div class="carousel-dots"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- About Special Someone Carousel -->
+    <div class="center-translucent-box">
+        <div class="translucent-content">
+            <div class="translucent-text">
+                <p class="plant-intro"><strong>My One and Only</strong><br>Someone who brings sunshine to my days and makes life even greener. She is my constant source of inspiration—the one who lights up my world with her smile and spirit. With her, I’ve learned to love deeper, dream bigger, and stay grounded in what truly matters. She reminds me to live with intention and heart.</p>
+            </div>
+            <div class="photo-column">
+                <div class="carousel" id="carousel-gf">
+                    <img class="carousel-img" src="about_gf.jpg" alt="Special Someone" />
+                    <img class="carousel-img" src="about_gf2.jpg" alt="Special Someone 2" />
+                    <div class="carousel-dots"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="image-modal" class="image-modal">
+        <span class="modal-close" id="modal-close">&times;</span>
+        <img id="modal-img" src="" alt="Full View" />
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
